@@ -1,0 +1,11 @@
+<!ENTITY identica.post "Post to Identi.ca">
+<!ENTITY identica.safe "Safe Mode">
+<!ENTITY identica.secure "Secure Mode">
+<!ENTITY identica.secure.tooltip "Prompt for username, password at start of each session">
+<!ENTITY identica.safe.tooltip "Automatically use username, password details from below">
+<!ENTITY identica.username "Username:">
+<!ENTITY identica.password "Password:">
+<!ENTITY identica.tab "Open Identica in new tab after posting">
+<!ENTITY identica.web "Before URL:">
+<!ENTITY identica.button "Hide addressbar button (requires browser restart)">
+<!ENTITY identica.options.dialog "Identica Options Dialog">

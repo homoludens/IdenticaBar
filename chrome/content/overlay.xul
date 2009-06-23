@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://identicabar/skin/identica.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://identicabar/locale/overlay.dtd">
+<overlay
+	id="identicaoverlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://identicabar/content/overlay.js"/>
+	<script type="application/x-javascript">
+		<![CDATA[
+		
+		window.addEventListener('load', function (x) { IDENTICABAR.load(); }, false);
+		
+		]]>
+	</script>
+
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton
+			id="identica-toolbar-button"
+			label="Identicabar"
+			tooltiptext="&identica.post;"
+			oncommand="IDENTICABAR.post()"
+			/>
+		<toolbaritem id="identicacountcon">
+			<vbox>
+				<spacer flex="1"/>
+				<label id="identica-toolbar-count" value="140" />
+				<spacer flex="1"/>
+			</vbox>
+		</toolbaritem>
+	</toolbarpalette>
+
+	<hbox id="identicaBox" insertbefore="urlbar-icons" onmouseover="IDENTICABAR.count();" onmouseout="IDENTICABAR.countClear();" class="textbox-input-box">
+		<vbox id="identica-count-vbox">
+			<spacer flex="1"/>
+			<label style="font-size: 10px; color: green;" id="identica-count" value="140 Left" hidden="true"/>
+			<spacer flex="1"/>
+		</vbox>
+		<vbox flex="1">
+			<spacer flex="1" />
+			<image id="identica-statusbarbutton"
+				onclick="IDENTICABAR.post();"
+				tooltiptext="&identica.post;"
+				src="chrome://identicabar/skin/bullet.png"
+				/>
+			<spacer flex="1" />
+		</vbox>
+	</hbox>
+
+	<textbox id="urlbar">
+		<hbox id="identicaBox" />
+	</textbox>
+
+	<textbox id="urlbar-edit">
+		<hbox id="identicaBox" />
+	</textbox>
+</overlay>

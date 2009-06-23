@@ -1,0 +1,11 @@
+<!ENTITY  identica.post "Odoslať na Identica">
+<!ENTITY  identica.safe "Normálny režim">
+<!ENTITY  identica.secure "Zabezpečený režim">
+<!ENTITY  identica.secure.tooltip "Pri každej relácii vyzvať na zadanie mena používateľa a hesla">
+<!ENTITY  identica.safe.tooltip "Automaticky použiť tu zadané meno používateľa a heslo">
+<!ENTITY  identica.username "Meno používateľa:">
+<!ENTITY  identica.password "Heslo:">
+<!ENTITY  identica.tab "Otvoriť po odoslaní správy na novej karte Identica">
+<!ENTITY  identica.web "Pred adresou:">
+<!ENTITY  identica.button "Skryť tlačidlo panela s adresou (vyžaduje reštart prehliadača)">
+<!ENTITY identica.options.dialog "Možnosti rozšírenia Identicabar">
