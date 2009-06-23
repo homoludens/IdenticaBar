@@ -1,0 +1,8 @@
+content     identicabar                    jar:chrome/identicabar.jar!/content/
+skin        identicabar      classic       jar:chrome/identicabar.jar!/skin/
+
+overlay     chrome://browser/content/browser.xul           chrome://identicabar/content/overlay.xul
+style       chrome://global/content/customizeToolbar.xul   chrome://identicabar/skin/identicabar.css
+
+locale      identicabar    en-US    jar:chrome/identicabar.jar!/locale/en-US/
+locale      identicabar    sk-SK    jar:chrome/identicabar.jar!/locale/sk-SK/
